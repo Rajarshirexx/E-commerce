@@ -19,7 +19,7 @@ export default  function Hero() {
                     </div>
                 </div>
             </div>
-            <img className="w-full sm:w-1/2" src={assets.hero_img} alt="" />
+            <img className="w-full sm:w-1/2 object-cover h-144 sm:h-inherit" src={assets.hero_img} alt="" />
         </div>
     )
 }
